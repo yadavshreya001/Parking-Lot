@@ -2,10 +2,11 @@ package models;
 import java.util.List;
 
 public class ParkingSpot extends BaseModel {
-    private int parkingSpotNumber;
-    private ParkingSpotStatus parkingSpotStatus;
-    private List<VehicleType> supportedVehicleTypes;
+    private int parkingSpotNumber;   // Unique number assigned to the parking spot.
+    private ParkingSpotStatus parkingSpotStatus;      // Current status of the parking spot (e.g., AVAILABLE or OCCUPIED).
+    private List<VehicleType> supportedVehicleTypes;   // List of vehicle types that can be parked in this spot.
 
+    // Getter and Setter methods for each field
     public int getParkingSpotNumber() {
         return parkingSpotNumber;
     }

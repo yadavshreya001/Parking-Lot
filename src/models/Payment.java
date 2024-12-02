@@ -2,12 +2,13 @@ package models;
 import java.util.Date;
 
 public class Payment extends BaseModel {
-    private int amount;
-    private PaymentMode paymentMode;
-    private PaymentStatus paymentStatus;
-    private Date time;
-    private String referenceNumber;
+    private int amount;     // The amount of money paid for the parking.
+    private PaymentMode paymentMode;    // The mode of payment (e.g., cash, credit card, etc.).
+    private PaymentStatus paymentStatus;   // The status of the payment (e.g., successful, failed).
+    private Date time;      // The date and time when the payment was made.
+    private String referenceNumber; // A unique reference number for the payment transaction.
 
+    // Getter and Setter methods for each field.
     public int getAmount() {
         return amount;
     }

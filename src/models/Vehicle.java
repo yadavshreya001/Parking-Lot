@@ -1,10 +1,11 @@
 package models;
 
 public class Vehicle extends BaseModel {
-    private String vehicleNumber;
-    private String ownerName;
-    private VehicleType vehicleType;
+    private String vehicleNumber;    // The vehicle's unique identification number (license plate).
+    private String ownerName;      // The name of the owner of the vehicle.
+    private VehicleType vehicleType;  // The type of the vehicle, which could be car, bike, etc.
 
+    // Getter and Setter methods
     public String getVehicleNumber() {
         return vehicleNumber;
     }
@@ -28,9 +29,6 @@ public class Vehicle extends BaseModel {
     public void setVehicleType(VehicleType vehicleType) {
         this.vehicleType = vehicleType;
     }
-<<<<<<< HEAD
+
 }
-=======
-   
-}
->>>>>>> 6b3669c629eb03e36e212708b62d1ed041195e6a
+

@@ -1,13 +1,16 @@
 package models;
 import java.util.Date;
 
+// The Ticket class represents a parking ticket issued when a vehicle enters the parking lot.
+// It tracks the vehicle's entry time, parking spot, and the gate where the ticket was generated.
 public class Ticket extends BaseModel {
-    private String number;
-    private Date entryTime;
-    private Vehicle vehicle;
-    private ParkingSpot parkingSpot;
-    private Gate generatedAt;
+    private String number;     // Unique identifier for the parking ticket.
+    private Date entryTime;   // The timestamp of when the vehicle entered the parking lot
+    private Vehicle vehicle;     // The vehicle associated with the parking ticket.
+    private ParkingSpot parkingSpot;  // The parking spot assigned to the vehicle.
+    private Gate generatedAt;   // The gate where the ticket was generated when the vehicle entered.
 
+    // Getter and Setter methods
     public String getNumber() {
         return number;
     }
@@ -47,9 +50,5 @@ public class Ticket extends BaseModel {
     public void setGeneratedAt(Gate generatedAt) {
         this.generatedAt = generatedAt;
     }
+}
 
-<<<<<<< HEAD
-}
-=======
-}
->>>>>>> 6b3669c629eb03e36e212708b62d1ed041195e6a

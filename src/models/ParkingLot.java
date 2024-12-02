@@ -2,13 +2,14 @@ package models;
 import java.util.List;
 
 public class ParkingLot extends BaseModel {
-    private List<ParkingFloor> parkingFloors;
-    private List<Gate> gates;
-    private List<VehicleType> supportedVehicleTypes;
-    private FeeCalculationStrategyType feeCalculationStrategyType;
-    private SpotAssignmentStrategyType spotAssignmentStrategyType;
-    private String address;
+    private List<ParkingFloor> parkingFloors;   // List of floors in the parking lot.
+    private List<Gate> gates;        // List of entry and exit gates.
+    private List<VehicleType> supportedVehicleTypes;     // Vehicle types the parking lot can accommodate.
+    private FeeCalculationStrategyType feeCalculationStrategyType;  // Strategy used for fee calculation.
+    private SpotAssignmentStrategyType spotAssignmentStrategyType;  // Strategy used for assigning parking spots.
+    private String address;  // Physical address of the parking lot.
 
+    // Getter and Setter methods for each field
     public String getAddress() {
         return address;
     }
