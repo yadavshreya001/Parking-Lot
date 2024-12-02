@@ -22,12 +22,4 @@ public class IssueTicketResponseDto {
         this.responseStatus = responseStatus;
     }
 
-    // Override toString() for printing the response details
-    @Override
-    public String toString() {
-        return "IssueTicketResponseDto{" +
-                "ticket=" + ticket +
-                ", responseStatus='" + responseStatus + '\'' +
-                '}';
-    }
 }
