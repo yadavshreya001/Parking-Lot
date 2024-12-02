@@ -38,4 +38,9 @@ public class IssueTicketRequestDto {
     public void setOwnerName(String ownerName) {
         this.ownerName = ownerName;
     }
+<<<<<<< HEAD
 }
+=======
+   
+}
+>>>>>>> 6b3669c629eb03e36e212708b62d1ed041195e6a
