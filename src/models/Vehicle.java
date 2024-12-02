@@ -28,13 +28,5 @@ public class Vehicle extends BaseModel {
     public void setVehicleType(VehicleType vehicleType) {
         this.vehicleType = vehicleType;
     }
-    // Override toString() for displaying vehicle details
-    @Override
-    public String toString() {
-        return "Vehicle{" +
-                "vehicleNumber='" + vehicleNumber + '\'' +
-                ", ownerName='" + ownerName + '\'' +
-                ", vehicleType=" + vehicleType +
-                '}';
-    }
+   
 }
