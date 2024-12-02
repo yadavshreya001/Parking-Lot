@@ -52,7 +52,9 @@ Technology
 ### 🎯 **Design Patterns**
 
 - **Singleton:** Ensures a single instance of key classes.
+  
 - **Factory:** Creates objects based on input type (Vehicle, Slot).
+  
 - **Strategy:** Implements different payment methods dynamically.
 
 ## 📚 **Future Enhancements**
