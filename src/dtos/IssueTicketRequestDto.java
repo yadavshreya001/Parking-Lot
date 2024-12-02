@@ -38,13 +38,4 @@ public class IssueTicketRequestDto {
     public void setOwnerName(String ownerName) {
         this.ownerName = ownerName;
     }
-    @Override
-    public String toString() {
-        return "IssueTicketRequestDto{" +
-                "gateId=" + gateId +
-                ", ownerName='" + ownerName + '\'' +
-                ", vehicleNumber='" + vehicleNumber + '\'' +
-                ", vehicleType=" + vehicleType +
-                '}';
-    }
 }

@@ -21,13 +21,4 @@ public class IssueTicketResponseDto {
     public void setResponseStatus(ResponseStatus responseStatus) {
         this.responseStatus = responseStatus;
     }
-
-    // Override toString() for printing the response details
-    @Override
-    public String toString() {
-        return "IssueTicketResponseDto{" +
-                "ticket=" + ticket +
-                ", responseStatus='" + responseStatus + '\'' +
-                '}';
-    }
 }

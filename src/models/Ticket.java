@@ -48,13 +48,4 @@ public class Ticket extends BaseModel {
         this.generatedAt = generatedAt;
     }
 
-    // Override toString() for displaying the ticket details
-    @Override
-    public String toString() {
-        return "Ticket{" +
-                "number='" + number + '\'' +
-                ", entryTime=" + entryTime +
-                ", vehicle=" + vehicle +
-                '}';
-    }
 }

@@ -1,6 +1,6 @@
 package models;
 
 public enum FeeCalculationStrategyType {
-    WEEKDAY,
-    WEEKEND,
+    WEEKDAY,    //Strategy for calculating parking fees on weekdays (Monday to Friday)
+    WEEKEND,    // Strategy for calculating parking fees on weekends (Saturday and Sunday)
 }

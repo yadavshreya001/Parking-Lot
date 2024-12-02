@@ -4,14 +4,15 @@ import java.util.Date;
 import java.util.List;
 
 public class Bill extends BaseModel {
-    private Ticket ticket;
-    private Gate gate;
-    private BillStatus billStatus;
-    private int amount;
-    private List<Payment> payments;
-    private Date exitTime;
-    private FeeCalculationStrategyType feeCalculationStrategyType;
+    private Ticket ticket; // Represents the parking ticket details
+    private Gate gate; // Represents the gate the vehicle exits from
+    private BillStatus billStatus; // Tracks the current status of the bill (PAID or PENDING)
+    private int amount; // The total amount to be paid for parking
+    private List<Payment> payments;  // List of payments made for the bill
+    private Date exitTime;   // The time the vehicle exits the parking lot
+    private FeeCalculationStrategyType feeCalculationStrategyType; // Strategy for calculating parking fees
 
+    // Getters and Setters for each field
     public Ticket getTicket() {
         return ticket;
     }
