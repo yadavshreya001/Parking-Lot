@@ -1,12 +1,19 @@
 package dtos;
 import models.VehicleType;
 
-public class IssueTicketRequestDto {
-    private Long gateId;
-    private String vehicleNumber;
-    private VehicleType vehicleType;
-    private String ownerName;
+/**
+ * Data Transfer Object (DTO) for issuing a parking ticket request.
+ * This class is used to encapsulate the data required when a vehicle enters
+ * the parking lot and requests a parking ticket.
+ */
 
+public class IssueTicketRequestDto {
+    private Long gateId;                 // ID of the gate where the vehicle is entering
+    private String vehicleNumber;       // Registration number of the vehicle
+    private VehicleType vehicleType;   // Type of the vehicle (e.g., Car, Bike, Truck)
+    private String ownerName;         // Name of the vehicle's owner
+
+    //Getter and Setter for the fields
     public Long getGateId() {
         return gateId;
     }
